@@ -1,0 +1,73 @@
+.bodyContainer {
+  background-color: whitesmoke;
+  color: black;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bodyContainer ul {
+  background-color: white;
+  width: 600px;
+  padding: 20px;
+  list-style-type: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.bodyContainer li {
+  border: 1px #E9E7E7 solid;
+  border-radius: 5px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.bodyContainer li:hover {
+  transform: scale(1.05)
+}
+
+.imageAndName {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.imageAndName p {
+    margin-left: 20px;
+}
+
+.imageAndName img {
+    height: 40px;
+}
+
+.info {
+  margin-top: 50px;
+  width: 600px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.info a {
+  color: #0096FF;
+  padding-left: 5px;
+}
+
+.material-symbols-outlined {
+  color: gray;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
