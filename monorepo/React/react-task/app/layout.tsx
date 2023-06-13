@@ -29,7 +29,6 @@ export default function RootLayout({
         <GlobalContextProvider>
         <Header />
           <div className={inter.className}>{children}</div>
-          
         </GlobalContextProvider>
           <Footer />
       </body>
