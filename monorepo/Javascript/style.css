@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 100vh;
+    overflow: hidden;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 100px; */
+    background-color: white;
+    width: 700px;
+}
+label {
+    display: flex;
+    margin: 10px;
+}
+button {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+}
+button:hover {
+    background-color: blueviolet;
+}
+#selectedCheckboxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 700px;
+}

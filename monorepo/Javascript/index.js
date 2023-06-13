@@ -9,8 +9,6 @@ function shuffleValues(e) {
     const form = document.querySelector('form');
     for (let i = checkboxes.length - 1; i >= 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        console.log('j',j);
-
         form.insertBefore(checkboxes[j].parentNode, checkboxes[i].parentNode);
     }
 }
